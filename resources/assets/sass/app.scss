@@ -1,2 +1,87 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+html {
+	font: Georgia, serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+input,
+textarea {
+	outline: none;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.bgc-green {
+	background-color: #9acd66;
+}
+
+nav {
+
+}
+
+	footer ul#address a,
+	nav a {
+		padding: 5px 15px;
+		color: #fff;
+		text-decoration: none;
+		background-color: #9acd66;
+		white-space: nowrap;
+		width: 100% !important;
+	}
+
+	footer ul#address a:hover,
+	nav a:hover {
+		text-decoration: none;
+		color: #fff;
+		background-color: #8ab849;
+	}
+
+		nav ul li {
+			position: relative;
+		}
+
+
+		nav ul li + li {
+			margin-left: -15px;
+		}
+
+			nav ul.sub-menu {
+				display: none;
+				list-style-type: none;
+				position: absolute;
+				margin-left: -40px;
+				margin-top: 3px;
+			}
+
+			nav ul.main-menu li:hover ul.sub-menu {
+				display: block;
+			}
+
+				nav ul.sub-menu li {
+					position: relative;
+					z-index: 1;
+				}
+
+				nav ul.sub-menu li + li {
+					margin-left: 0;
+				}
+
+					nav ul.sub-menu li a {
+						width: 100%;
+						display: block;
+					}
+footer ul#address {
+	padding: 3px 0;
+	list-style-type: none;
+}
+
+	footer ul#address li {
+		display: inline-block;
+	}
+
